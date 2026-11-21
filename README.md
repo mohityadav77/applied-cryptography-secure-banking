@@ -91,14 +91,6 @@ This is a local cryptography demonstration with one signing identity, representi
 
 The demonstration stores an unencrypted private key locally (with restricted file permissions where supported). Real banking requires stronger key protection, separate customer identities and trusted key registration, authorization, replay protection, and audited systems. Signatures provide integrity and authenticity relative to a trusted key; they do not hide transaction details.
 
-## Submission checklist
-
-- Read the explanation guide and run the manual demonstration yourself.
-- Fill in your name, roll number, group members, course, and professor in the report draft.
-- Follow any additional report format or submission rules supplied by your professor; the provided assignment image does not specify them.
-- Include source files, requirements, the report, and test/demo output. Take screenshots of your own run if your professor asks for them.
-- Follow your course's rules for acknowledging tools and assistance. Do not claim tests or experiments you have not run yourself.
-
 ## References
 
 - [PyCryptodome RSA-PSS signing and verification](https://www.pycryptodome.org/src/signature/pkcs1_pss)
