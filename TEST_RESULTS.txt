@@ -1,0 +1,17 @@
+test_bad_account_names (test_banking.BankingTests.test_bad_account_names) ... ok
+test_database_tampering_appears_in_report (test_banking.BankingTests.test_database_tampering_appears_in_report) ... ok
+test_every_signed_field_is_protected (test_banking.BankingTests.test_every_signed_field_is_protected) ... ok
+test_generate_new_keys (test_banking.BankingTests.test_generate_new_keys) ... ok
+test_invalid_amounts (test_banking.BankingTests.test_invalid_amounts) ... ok
+test_key_overwrite_is_blocked (test_banking.BankingTests.test_key_overwrite_is_blocked) ... ok
+test_original_and_tampered_copy (test_banking.BankingTests.test_original_and_tampered_copy) ... ok
+test_persistence_and_unknown_id (test_banking.BankingTests.test_persistence_and_unknown_id) ... ok
+test_report_tampering (test_banking.BankingTests.test_report_tampering) ... ok
+test_wrong_key_and_changed_signature (test_banking.BankingTests.test_wrong_key_and_changed_signature) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 5.524s
+
+OK
+
+Interactive menu smoke test: PASS (generate keys, create transaction, list, export report, exit).

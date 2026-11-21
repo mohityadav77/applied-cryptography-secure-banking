@@ -1,0 +1,8 @@
+PROJECT 11: SECURE BANKING TRANSACTIONS
+1. Generated 2048-bit RSA keys.
+2. Signed and stored Alice -> Bob: INR 500.00.
+3. Original signature valid: True
+4. Copy changed to INR 600.00; signature valid: False
+5. Exported report; report signature valid: True
+6. Modified report; report signature valid: False
+Demo complete. Temporary demo data is removed automatically.
